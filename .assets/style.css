@@ -1,8 +1,8 @@
 html, body {
     margin: 0;
     color: #34495e;
-    font-size: 15px;
     font-family: Lato, Ubuntu, 'Open Sans', sans-serif;
+    font-size: 15px;
     line-height: 1.5;
 }
 
@@ -12,8 +12,13 @@ body {
 
 main {
     margin: 0 auto;
-    padding: 50px 10px;
+    padding: 40px 10px;
     max-width: 1000px;
+}
+
+h1 {
+    font-size: 1.7rem;
+    margin-bottom: 30px;
 }
 
 h1 img {
@@ -23,6 +28,7 @@ h1 img {
 
 table {
     width: 100%;
+    font-size: inherit;
     border-collapse: collapse;
 }
 
