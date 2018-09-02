@@ -1,0 +1,42 @@
+Options +Indexes
+
+AddType application/octet-stream .zsync
+AddType text/plain .DIGEST
+
+IndexIgnore .??* *~
+IndexOptions Charset=utf-8 FancyIndexing IgnoreCase FoldersFirst HTMLTable SuppressRules NameWidth=* DescriptionWidth=*
+IndexStyleSheet "/.assets/style.css"
+IndexHeadInsert '  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=.6">'
+HeaderName /.assets/header.html
+ReadmeName /.assets/footer.html
+
+AddIcon /.assets/icons/blank.png ^^BLANKICON^^
+AddIcon /.assets/icons/folder.png ^^DIRECTORY^^
+AddIcon /.assets/icons/up.png ..
+
+AddDescription "SHA-256 Checksum" .DIGEST
+AddDescription "PGP Signature" .sig
+AddDescription "Zsync Meta" .zsync
+AddDescription "Linux AppImage" .AppImage
+AddDescription "Portable Version" .zip
+AddDescription "Windows Installer" .msi
+AddDescription "Windows Executable" .exe
+AddDescription "macOS Installer" .dmg
+
+AddIcon /.assets/icons/apple-logo.png .dmg
+AddIcon /.assets/icons/binary-file.png .bin .dll .so .hex
+AddIcon /.assets/icons/code-file.png .c .cpp .cxx .py .sh .java .php
+AddIcon /.assets/icons/document-with-a-check-mark.png .DIGEST .sig
+AddIcon /.assets/icons/file-archiver.png .zip .tar .gz .bz2 .xz .rar
+AddIcon /.assets/icons/html-filetype.png .htm .html
+AddIcon /.assets/icons/image-file.png .png .jpg .gif .bmp .svg
+AddIcon /.assets/icons/linux.png .AppImage
+AddIcon /.assets/icons/pdf.png .pdf .eps .ps
+AddIcon /.assets/icons/round-arrow.png .zsync
+AddIcon /.assets/icons/txt.png .txt
+AddIcon /.assets/icons/windows-8-logo.png .exe .msi
+
+AddIconByType (TXT,/.assets/icons/txt.png) text/*
+
+DefaultIcon /.assets/icons/file.png
+

@@ -1,0 +1,95 @@
+html, body {
+    margin: 0;
+    color: #34495e;
+    font-size: 15px;
+    font-family: Lato, Ubuntu, 'Open Sans', sans-serif;
+    line-height: 1.5;
+}
+
+body {
+    border-top: 10px solid #6cac4d;
+}
+
+main {
+    margin: 0 auto;
+    padding: 50px 10px;
+    max-width: 1000px;
+}
+
+h1 img {
+    vertical-align: middle;
+    margin-right: .5rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+}
+
+th {
+    text-align: left;
+    font-size: 1.05em;
+    padding: 5px 10px;
+}
+
+td {
+    white-space: nowrap;
+    padding: 4px 8px;
+}
+
+@media (max-width: 1000px) {
+    td {
+        white-space: normal;
+    }
+}
+
+footer {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 80%;
+}
+
+.indexhead, .odd {
+    background-color: #f9f9f9;
+}
+
+.indexcolicon {
+    text-align: center;
+    width: 30px;
+}
+
+.indexcolicon img {
+    height: 30px;
+}
+
+.indexcollastmod {
+    width: 8em;
+    text-align: right;
+}
+
+.indexcolsize {
+    width: 5em;
+}
+
+@media (min-width: 1000px) {
+    .indexcoldesc {
+        width: 12em;
+    }
+}
+
+.indexcolsize {
+    text-align: right;
+}
