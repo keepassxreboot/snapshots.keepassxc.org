@@ -1,5 +1,7 @@
 Options +Indexes
 
+RewriteRule ^.(git|sync) - [F,L,NC]
+
 AddType application/octet-stream .zsync .AppImage
 AddType text/plain .DIGEST
 
