@@ -43,3 +43,4 @@ AddIconByType (TXT,/.assets/icons/txt.png) text/*
 
 DefaultIcon /.assets/icons/file.png
 
+Header set Cache-Control "Cache-Control: public, s-maxage=0"
