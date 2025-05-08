@@ -24,7 +24,7 @@ AddDescription "Linux AppImage" .AppImage
 AddDescription "Portable Version" .zip
 AddDescription "Windows Installer" .msi
 AddDescription "Windows Executable" .exe
-AddDescription "Debug Symbols" .pdb
+AddDescription "Windows Debug Symbols" .pdb
 AddDescription "macOS Installer" .dmg
 
 AddIcon /.assets/icons/apple-logo.png .dmg
